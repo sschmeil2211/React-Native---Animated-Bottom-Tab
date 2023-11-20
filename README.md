@@ -1,79 +1,61 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# **Animated Bottom Tabs App**
 
-# Getting Started
+![Badge Succesfull](https://img.shields.io/badge/STATUS-FINALIZED-green)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+# Contact
+* [LinkedIn](https://www.linkedin.com/in/sebastian-schmeil/)
 
-## Step 1: Start the Metro Server
+* schmeil.sebastian97@gmail.com
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Index
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- [Description](#description)
+- [Demo](#demo)
+- [Scripts Explanation](#scripts-explanation)
+- [Access to the Project](#access-to-the-project)
+- [Technologies Used](#technologies-used)
 
-```bash
-# using npm
-npm start
+## Description
+The Animated Bottom Tabs App is a React Native mobile application that features an animated bottom tab bar with curved paths and interactive icons. The app uses React Native Reanimated and React Navigation for smooth animations and navigation.
 
-# OR using Yarn
-yarn start
-```
+## Demo
+Explore the application's functionalities by watching the demo video here.
 
-## Step 2: Start your Application
+## Scripts Explanation
+### ***Hooks***
+* usePath: This hook generates curved paths for the animated bottom tabs.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### ***Navigator***
+* NavigatorBottomTabss: The BottomTabs component uses react-navigation to create the bottom tab navigator.
 
-### For Android
+### ***Components***
+* CustomButtonTabs: The CustomBottomTab component represents the custom bottom tab bar, including the curved paths and interactive icons.
 
-```bash
-# using npm
-npm run android
+* AnimatedCircle: The AnimatedCircle component renders a circular shape with animation based on the shared value.
 
-# OR using Yarn
-yarn android
-```
+* TabItem: The TabItem component represents an individual tab in the bottom tab bar, including interactive icons and labels.
 
-### For iOS
+* IconButton: The IconButton component is a reusable button component with customizable icons and styles.
 
-```bash
-# using npm
-npm run ios
+ ### ***Screens***
+ * Basic components that represent what could be application screens
 
-# OR using Yarn
-yarn ios
-```
+## Access to the Project
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+To access and test the project, follow these steps:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+* Clone the repository.
+* Navigate to the project directory.
+* Run npm install to install the dependencies.
+* Run the app on an emulator or device using react-native run-android or react-native run-ios.
 
-## Step 3: Modifying your App
+Feel free to explore and modify the code to suit your requirements.
 
-Now that you have successfully run the app, let's modify it.
+## Technologies Used
++ React Native
++ React Navigation
++ React Native Reanimated
++ D3 (for path calculations)
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Developers
+Sebastian Schmeil
