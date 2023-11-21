@@ -56,6 +56,7 @@ Feel free to explore and modify the code to suit your requirements.
 + React Navigation
 + React Native Reanimated
 + D3 (for path calculations)
++ Typescript
 
 ## Developers
 Sebastian Schmeil
